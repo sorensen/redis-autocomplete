@@ -1,0 +1,27 @@
+{
+  "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
+, "name": "redis-autocomplete"
+, "description": "Redis autocompletion"
+, "version": "0.0.1"
+, "license": "MIT"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/sorensen/redis-autocomplete.git"
+  }
+, "engines": {
+    "node": "0.x"
+  }
+, "main": "index.js"
+, "scripts": {
+    "test": "make test"
+  }
+, "dependencies": {
+    "redis": "0.8.3"
+  , "redis-lua-loader": "0.0.1"
+  }
+, "devDependencies": {
+    "mocha": "1.9.0"
+  , "commander": "1.1.1"
+  , "keypress": "0.1.0"
+  }
+}
