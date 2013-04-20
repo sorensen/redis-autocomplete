@@ -8,7 +8,7 @@ var program = require('commander')
   , keypress = require('keypress')
   , redis = require('redis')
   , db = redis.createClient()
-  , AutoComplete = require('../index')
+  , AutoComplete = require('./index')
   , auto
   , noop = function() {}
   , sep = ''
